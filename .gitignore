@@ -1,0 +1,12 @@
+# secrets and local env
+.env
+.venv/
+.streamlit/secrets.toml
+__pycache__/
+*.pyc
+
+# internal evaluation artifacts (not needed to run the demo)
+personas.csv
+compare.py
+comparison.md
+comparison_raw.json
